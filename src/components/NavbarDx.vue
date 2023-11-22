@@ -5,8 +5,5 @@
 <script>
 export default {
   name: "NavbarDx",
-  setup() {
-    return {};
-  },
 };
 </script>

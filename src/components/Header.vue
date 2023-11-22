@@ -1,14 +1,15 @@
 <script>
 export default {
   name: "AppHeader",
-  data() {
-    return {};
-  },
 };
 </script>
 
 <template>
-  <div class="container mx-auto mt-20">
+  <h1 class="text-white">
+    sono header
+  </h1>
+  
+  <!-- <div class="container mx-auto mt-20">
     <h1 class="font-mono text-6xl font-black text-green-700">Hi,I'm Diego</h1>
     <p class="mt-4 font-black text-green-700 font mono text-1xl">
       Web Developer, Tech Addicted & Japan lover
@@ -30,5 +31,5 @@ export default {
         />
       </svg>
     </p>
-  </div>
+  </div> -->
 </template>

@@ -1,9 +1,6 @@
 <script>
 export default {
   name: "NavbarSx",
-  setup() {
-    return {};
-  },
 };
 </script>
 
