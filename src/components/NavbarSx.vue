@@ -62,7 +62,7 @@ export default {
       <div class="tooltip-arrow" data-popper-arrow></div>
     </div>
 
-    <a href=""
+    <a href="/Works"
       ><svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
