@@ -6,7 +6,7 @@ export default {
 
 <template>
   <div
-    class="flex flex-col justify-center gap-10 text-green-700 align-middle basis-3"
+    class="flex flex-col justify-center gap-10 text-green-700 align-middle border-2 border-green-700 basis-5"
   >
     <a class="text-green-700" href="/Mail">
       <svg

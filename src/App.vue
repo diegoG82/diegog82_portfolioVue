@@ -15,16 +15,15 @@ export default {
 <template>
   <AppHeader />
   <!-- Sezione Cubone principale -->
-  <section class="container flex flex-row mt-10 mx-auto h-[40rem] space-x-4 overflow-hidden border-2 border-solid">
+  <section class="container flex flex-row mt-10 mx-auto h-[40rem] space-x-4">
     <!-- Componente NavbarSx -->
     <NavbarSx />
 
-    <main class="overflow-y-scroll text-2xl text-green-700 border-2 border-solid basis-full">
+    <main class="text-2xl text-green-700 basis-full">
       <router-view></router-view>
     </main>
 
     <!-- Componente NavbarSx -->
     <NavbarDx />
   </section>
-
 </template>
