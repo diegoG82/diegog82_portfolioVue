@@ -8,7 +8,7 @@ export default {
   <div
     class="flex flex-col justify-center gap-10 text-green-700 align-middle basis-10 border-2 border-[#629b92] rounded"
   >
-    <a class="text-green-700" href="/">
+    <a href="/">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -89,7 +89,7 @@ export default {
       <div class="tooltip-arrow" data-popper-arrow></div>
     </div>
 
-    <a class="text-green-700" href="/Mail">
+    <a href="/Mail">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
