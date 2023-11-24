@@ -1,7 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Main from './pages/Main.vue';
+import Skills from './pages/Skills.vue'
 import Mail from './pages/Mail.vue';
-import NotFound from './pages/NotFound.vue';
+
+// import NotFound from './pages/NotFound.vue';
 
 const router = createRouter({
     history: createWebHistory(),
@@ -17,12 +19,19 @@ const router = createRouter({
             name: 'mail',
             component: Mail
         },
+
+         {
+            path: '/skills',
+             name: 'skills',
+           component: Skills
+        },
+
         //not found viene inserito sempre per ultimo
-       {
-            path: '/:pathMatch(.*)*',
-            name: 'not-found',
-            component: NotFound
-        }
-    ]
+    //   {
+    //          path: '/:pathMatch(.*)*',
+    //          name: 'not-found',
+    //          component: NotFound
+    //         },
+     ]
 });
 export { router };

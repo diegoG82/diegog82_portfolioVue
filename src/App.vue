@@ -2,6 +2,35 @@
 import AppHeader from "./components/Header.vue";
 import NavbarDx from "./components/NavbarDx.vue";
 import NavbarSx from "./components/NavbarSx.vue";
+import { onMounted } from "vue";
+import {
+  initAccordions,
+  initCarousels,
+  initCollapses,
+  initDials,
+  initDismisses,
+  initDrawers,
+  initDropdowns,
+  initModals,
+  initPopovers,
+  initTabs,
+  initTooltips,
+} from "flowbite";
+
+// initialize components based on data attribute selectors
+onMounted(() => {
+  initAccordions();
+  initCarousels();
+  initCollapses();
+  initDials();
+  initDismisses();
+  initDrawers();
+  initDropdowns();
+  initModals();
+  initPopovers();
+  initTabs();
+  initTooltips();
+});
 
 export default {
   components: {
@@ -19,7 +48,9 @@ export default {
     <!-- Componente NavbarSx -->
     <NavbarSx />
 
-    <main class="text-2xl text-green-700 basis-full">
+    <main
+      class="text-2xl text-green-700 border-2 border-[#629b92] rounded basis-full"
+    >
       <router-view></router-view>
     </main>
 
